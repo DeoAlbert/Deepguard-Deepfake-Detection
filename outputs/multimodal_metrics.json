@@ -1,0 +1,64 @@
+{
+  "checkpoint": "/Users/deoalbert/Downloads/Deepf2/checkpoints/multimodal_ff_best.pt",
+  "best_threshold": 0.05,
+  "best_val_f1": 0.9285714285714286,
+  "note": "Metrics are on a small stratified val split from cached clips only; re-run with more preprocessed videos and tune threshold on a held-out set. val_audio_only_auc near 0.5 means the mel-only head is not yet discriminative at this scale.",
+  "history": [
+    {
+      "val_accuracy": 0.8666666666666667,
+      "val_precision": 0.8666666666666667,
+      "val_recall": 1.0,
+      "val_f1": 0.9285714285714286,
+      "val_auc_roc": 0.6153846153846154,
+      "val_avg_precision": 0.9340725513802435,
+      "val_audio_only_auc": 0.5,
+      "epoch": 1,
+      "train_loss_mean": 0.5199194082192012,
+      "best_threshold_val": 0.05
+    },
+    {
+      "val_accuracy": 0.8666666666666667,
+      "val_precision": 0.8666666666666667,
+      "val_recall": 1.0,
+      "val_f1": 0.9285714285714286,
+      "val_auc_roc": 0.6153846153846154,
+      "val_avg_precision": 0.9340725513802435,
+      "val_audio_only_auc": 0.5,
+      "epoch": 2,
+      "train_loss_mean": 0.4899055989725249,
+      "best_threshold_val": 0.05
+    },
+    {
+      "val_accuracy": 0.8666666666666667,
+      "val_precision": 0.8666666666666667,
+      "val_recall": 1.0,
+      "val_f1": 0.9285714285714286,
+      "val_auc_roc": 0.6153846153846154,
+      "val_avg_precision": 0.9340725513802435,
+      "val_audio_only_auc": 0.5,
+      "epoch": 3,
+      "train_loss_mean": 0.412732584135873,
+      "best_threshold_val": 0.05
+    },
+    {
+      "val_accuracy": 0.8666666666666667,
+      "val_precision": 0.8666666666666667,
+      "val_recall": 1.0,
+      "val_f1": 0.9285714285714286,
+      "val_auc_roc": 0.6153846153846154,
+      "val_avg_precision": 0.9340725513802435,
+      "val_audio_only_auc": 0.5,
+      "epoch": 4,
+      "train_loss_mean": 0.40391843233789715,
+      "best_threshold_val": 0.05
+    }
+  ],
+  "config": {
+    "ff_root": "/Users/deoalbert/Downloads/Deepf2/data/FaceForensics++_C23",
+    "processed_root": "/Users/deoalbert/Downloads/Deepf2/processed_ff",
+    "n_train": 85,
+    "n_val": 15,
+    "visual_feature_dim": 2240,
+    "audio_embed_dim": 256
+  }
+}
